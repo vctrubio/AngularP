@@ -10,8 +10,9 @@ class History
 {
 	vector<Game*>	_history;
 public:
-	History(){};
+	History(){srand(time(NULL));};
 	~History(){};
+	Game	*newGame();
 };
 
 #endif

@@ -1,8 +1,6 @@
 #include "../Headers.hpp"
-#include "Card.hpp"
 #include "History.hpp"
 #include "Game.hpp"
-
 
 
 int main()
@@ -11,4 +9,11 @@ int main()
 
 	cout << "hellow world\n";
 
+	Game *ptr;
+
+	ptr = init.newGame();
+
+	ptr->auto4Play();
+	ptr->print();
+	ptr->run();
 }
