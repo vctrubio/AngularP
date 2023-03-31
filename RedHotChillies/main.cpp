@@ -16,4 +16,9 @@ int main()
 	ptr->auto4Play();
 	ptr->print();
 	ptr->run();
+
+	cout << "VS OTHERºn\n";
+	ptr->autoPlay();
+	ptr->print();
+	ptr->run();
 }

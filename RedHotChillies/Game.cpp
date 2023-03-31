@@ -34,8 +34,6 @@ void    Game::autoPlay()
 
 void    Game::run()
 {
-    // pair<Set, int>  *ptr;
-
     for (int i = 0; i < SIZE; i++)
     {
         if (_table[i] == _pick[i])

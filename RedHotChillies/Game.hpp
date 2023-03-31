@@ -2,7 +2,6 @@
 #define GAME_HPP
 
 #include "../Headers.hpp"
-#include "Set.hpp"
 #include "History.hpp"
 
 #define SIZE 4
@@ -21,7 +20,6 @@ public:
 	void 	print();
 	void 	auto4Play();
 	void 	autoPlay();
-	void	res();
 	void	run();
 	int		score(){return _totalScore;};
 };
